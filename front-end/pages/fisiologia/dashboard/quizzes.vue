@@ -178,8 +178,6 @@
 								</template>
 							</v-select>
 
-							{{ formData.theme_id }}
-
 							<v-text-field
 								v-model="formData.title"
 								label="Título do Quiz"

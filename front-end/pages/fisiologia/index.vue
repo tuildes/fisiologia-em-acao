@@ -190,7 +190,11 @@
 										:src="formatImage(item.image)"
 										width="50"
 										height="50"
-										style="border-radius: 4"
+										style="
+											border-radius: 4;
+											object-fit: cover;
+										"
+										alt=""
 										class="my-2"
 									/>
 									<strong>{{ item.title }}</strong>
@@ -231,10 +235,6 @@
 				</v-data-table>
 			</div>
 		</div>
-
-		<div>
-			<v-btn @click="corromper"> Corromper token </v-btn>
-		</div>
 	</v-container>
 </template>
 
@@ -259,11 +259,6 @@ const { data: apiData, status } = await useAsyncData(
 	},
 )
 
-const corromper = () => {
-	const cookieToken = useCookie("token", { sameSite: true })
-	cookieToken.value = "DAJIASDJIkADSIJSADIJ213" // Simula um token inválido
-}
-
 const search = shallowRef("")
 const searchAllQuizzes = shallowRef("")
 
@@ -283,7 +278,6 @@ const getColor = (status) => {
 
 const sortBy = ref([
 	{ key: "user_status", order: "desc" },
-	{ key: "dificulty", order: "asc" },
 	{ key: "theme.id", order: "asc" },
 	{ key: "title", order: "asc" },
 ])
