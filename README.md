@@ -1,31 +1,38 @@
 <p align="center">
-  <img alt="Emblema da Fisiologia em ação" src="/front-end/public/login/logo-vector.png" height="120">
-  <h3 align="center">Fisiologia em ação</h3>
-  <p align="center">Um website de quizzes para o projeto da FISIOLOGIA EM AÇÃO da UFPR</p>
+  <img alt="Fisiologia em Ação Logo" src="/front-end/public/login/logo-vector.png" height="120">
 </p>
 
-## Tecnologias
+<p align="center">
+  <i>A full-stack quiz platform developed for the "Fisiologia em Ação" university extension project at UFPR.</i>
+</p>
 
-- Vue, Nuxt e Vuetify
-- PHP e Laravel
+<p align="center">
+  <img src="https://img.shields.io/github/stars/tuildes/fisiologia-em-acao" alt="Github star">
+</p>
 
-## Screenshots
+## About
 
-!["Home"](.github/screenshot/home.png)
-!["Login"](.github/screenshot/login.png)
-!["Quiz"](.github/screenshot/quiz.png)
+**Fisiologia em Ação** is an interactive web application created for a physiology professor at the Federal University of Paraná (UFPR). It serves as an educational tool to help students test and improve their knowledge of physiology through dynamic quizzes.
 
-## Participantes
+**Techs**: `Vue`, `Nuxt`, `Vuetify`, `JavaScript`, `Laravel,` and `PHP`
 
-Projeto feito e idealizado por alunos de Informática Biomédica[^1]
+<details open>
+  <summary>Screenshots</summary>
+  
+  !["Home"](.github/screenshot/home.png)
+  !["Login"](.github/screenshot/login.png)
+  !["Quiz"](.github/screenshot/quiz.png)
+</details>
 
-- <a href="https://github.com/tuildes">tuildes</a>
-- <a href="https://github.com/PauloJankosz">PauloJankosz</a>
-- <a href="https://github.com/GAFS-GAFS">GAFS-GAFS</a>
-- <a href="https://github.com/felipeduuartee">felipeduuartee</a>
-- <a href="https://github.com/Guilherme-Eduardo">Guilherme-Eduardo</a>
-- <a href="https://github.com/mTh22k">mTh22k</a>
-- <a href="https://github.com/NicolasPedroso">NicolasPedroso</a>
-- <a href="https://github.com/ricardobacano">ricardobacano</a>
+## Team
 
-[^1]: Faculdade de **Informática Biomédica** na Universidade Federal do Paraná no ano de 2024 (primeiro semestre), o curso se consiste em uma matriz de ciência da computação com matérias focadas as áreas biomédicas e aplicações da computação em áreas médicas, como genética.
+Designed and developed in early 2024 by **Biomedical Informatics** students at UFPR. This undergraduate program integrates a core computer science curriculum with medical and biomedical applications, such as genetics and healthcare tech.
+
+* [tuildes](https://github.com/tuildes)
+* [PauloJankosz](https://github.com/PauloJankosz)
+* [GAFS-GAFS](https://github.com/GAFS-GAFS)
+* [felipeduuartee](https://github.com/felipeduuartee)
+* [Guilherme-Eduardo](https://github.com/Guilherme-Eduardo)
+* [mTh22k](https://github.com/mTh22k)
+* [NicolasPedroso](https://github.com/NicolasPedroso)
+* [ricardobacano](https://github.com/ricardobacano)
